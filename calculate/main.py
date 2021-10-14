@@ -23,11 +23,8 @@ def main():
             break
         # Если action равен +, -, *, /, то
         if action in ('+', '-', '*', '/'):
-            # Присваиваем значение переменной x
             x = float(input("x = "))
-            # Присваиваем значение переменной y
             y = float(input("y = "))
-            # Если action равен + то
             if action == '+':
                 # Выводим сумму x и y
                 print('%.2f + %.2f = %.2f' % (x, y, x+y))
